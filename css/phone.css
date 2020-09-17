@@ -1,0 +1,74 @@
+body {
+	font-family: sans-serif;
+	color: black;
+}
+
+form {
+	margin: 20px 0px;
+}
+
+label {
+	margin-left: 10px;
+}
+
+input {
+	/*border-radius: .25rem;*/
+	width: 10%;
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 1rem;
+    /*font-weight: 400;*/
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    /*background-clip: padding-box;*/
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+
+}
+
+button {
+	width: auto;
+	/*height: 20px;*/
+	font-family: sans-serif;
+	/*font-size: 1em;*/
+	background: #007bff;
+	border-radius: .25rem;
+	border: none;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+}
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+#tab1Button, #tab2Button, #tab3Button { 
+	font-size: 1em;	
+}
+
+.content {
+	margin-left: 20px;
+}
+
+.number {
+	width: 40px;
+	background: #bbbbbb;
+	color: #333333;
+	font-weight: 400;
+	margin: 5px;
+}
+
+.dialPad {
+	margin-left: 5px;
+}
+.contact {
+	width: auto;
+	background: #bbbbbb;
+	color: #333333;
+	font-weight: 400;
+}
+
+#dialButton, #clearDialer {
+	margin-left: 20px;
+}
+
+/* make the button with ID "delete" red */
+#clearDialer, #clearAdd { background: #bf1919; }

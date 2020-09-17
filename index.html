@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<title>
+		InClass 1 - GUI
+	</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="css/phone.css" rel="stylesheet" type="text/css">
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+
+</head>
+
+<body>
+	<div class="tabBar">
+		<button id="tab1Button">Dialer</button>
+		<button id="tab2Button">Contact List</button>
+		<button id="tab3Button">Add Contact</button>
+	</div>
+
+	<div id="content">
+		<div class="tabs" id="dialContent">
+			<form>
+				<label for="dialText">Dialer</label>
+				<input id="dialText" placeholder="Phone Number">
+			</form>
+
+			<div class="row dialPad">
+				<button class="number" id="num1">1</button>
+				<button class="number" id="num1">2</button>
+				<button class="number" id="num1">3</button>
+			</div>
+			<div class="row dialPad">
+				<button class="number" id="num1">4</button>
+				<button class="number" id="num1">5</button>
+				<button class="number" id="num1">6</button>
+			</div>
+			<div class="row dialPad">
+				<button class="number" id="num1">7</button>
+				<button class="number" id="num1">8</button>
+				<button class="number" id="num1">9</button>
+			</div>
+			<div class="row dialPad">
+				<button class="number" id="num1">*</button>
+				<button class="number" id="num1">0</button>
+				<button class="number" id="num1">#</button>
+			</div>
+			
+			
+			<button class="submit" id="dialButton">Dial</button>
+			<button class="clear" id="clearDialer">Clear</button>
+		</div>
+
+		<div class="tabs" id="contactContent">
+			<button class="contact" id="contact1">Contact Name</button>
+		</div>
+
+		<div class="tabs" id="addContent">			
+			<form>
+				<label for="contactName">Name</label>
+				<input id="contactName" placeholder="Jane Smith">
+
+				<label for="contactPhone">Phone</label>
+				<input id="contactPhone" placeholder="123-456-7890">
+
+				<label for="contactEmail">Email</label>
+				<input id="contactEmail" placeholder="Jjanesmith@gmail.com">
+			</form>
+
+			<button class="submit" id="addButton">Add Contact</button>
+			<button class="clear" id="clearAdd">Clear</button>
+		</div>
+	</div>
+
+	<div>
+		<h3>InClass Links</h3>
+		<a href="inclass3.html" target="_blank">InClass 3: Fitt's Law Study</a>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/phone.js"></script>
+</body>
+
+</html>
